@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+		body {
+    		margin: 0;
+    		padding: 0;
+    		height: 95vh;
+    		min-width: 100%;
+    		display: inline-block;
+    		overflow: auto;
+		}
+		header div {
+			text-align: center;
+			background-color: rgb(152, 217, 54);
+			color: white;
+    		margin: none;
+    		padding: 5px;
+    		font-family :cursive;
+    		font-weight: bold;
+    		border-radius: 5px;
+    		height: 15%;
+		}
+		
+		.content{
+			margin: none;
+			min-height: 94.5%;
+			background-color: rgb(255, 245, 232);
+			position: relative;
+    		overflow: auto;
+		}
+		
+		.body-el, .body-complete{
+    		background-color: rgb(255, 245, 232);
+    		margin: none;
+    		padding: 10px;
+    		border-radius: 5px;
+    		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    		position: relative;
+    		overflow: auto;
+		}
+		
+		#add-btn {
+    		background-color: rgb(32, 203, 194);
+    		color: white;
+    		border-radius: 3px;
+    		padding: 5px;
+    		position: fixed;
+    		float: none;
+    		right: 1%;
+    		bottom: 1%;
+    		border: none;
+    		width: 5%;
+    		min-width: 10%;
+		}
+		#add-btn:hover {
+			background-color: rgb(29, 179, 171);
+		}
+		.task-table {
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.task-table thead {
+			background-color: rgb(251, 227, 196);			
+		}
+		tbody td{
+			color: rgb(86, 64, 64);;
+		}
+		.task-table td, .task-table th {
+			padding: 10px;
+			border-radius: 2px;
+		}
+		#task-row:nth-child(even) {
+			background-color: rgb(255, 249, 239);
+		}
+		#task-row:hover {
+			background-color: rgb(250, 238, 222);
+		}
+		#deadline, #priority{
+			text-align: center;
+		}
+		#actions {
+			display:flex;
+			align-items: center;
+			justify-content:center;
+		}
+		.edit-btn {
+			background-color: rgb(252, 239, 216);
+			border-radius: 3px;
+    		padding: 5px;
+    		border: none;
+    		color: rgb(86, 64, 64);
+    		width: 20%;
+		}
+		
+		.delete-btn {
+			background-color: rgb(252, 239, 216);
+			border-radius: 3px;
+    		padding: 5px;
+    		border: none;
+    		color: rgb(86, 64, 64);
+    		width: 20%;
+		}
+		
+		#delete-btn {
+			background-color: rgb(252, 239, 216);
+			border-radius: 3px;
+    		padding: 5px;
+    		border: none;
+    		color: rgb(86, 64, 64);
+    		width: 30%;
+		}
+		#delete-btn:hover {
+			background-color: rgb(255, 249, 239);
+		}
+		.complete-btn {
+			background-color: rgb(252, 239, 216);
+			border-radius: 3px;
+    		padding: 5px;
+    		border: none;
+    		color: rgb(86, 64, 64);
+    		width: 20%;
+		}
+		.edit-btn:hover, .delete-btn:hover, .complete-btn:hover {
+			background-color: rgb(255, 249, 239);
+		}

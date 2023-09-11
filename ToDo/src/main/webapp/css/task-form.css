@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+		body {
+    		margin: 0;
+    		padding: 0;
+    		height: 95vh;
+    		min-width: 100%;
+    		display: inline-block;
+    		overflow: auto;
+		}
+		header div{
+			text-align: center;
+			background-color: rgb(152, 217, 54);
+			color: white;
+    		margin: none;
+    		padding: 5px;
+    		font-family :cursive;
+    		font-weight: bold;
+    		border-radius: 5px;
+    		height: 15%;
+		}
+		#body{
+			background-color: rgb(255, 245, 232);
+			height: 92.5%;
+    		overflow: auto;
+    		margin: none;
+    		padding: 10px;
+		}
+		#form-el {
+    		align-items: center;
+    		/* background-color: rgb(165, 220, 255); */
+    		background-color: rgb(195, 244, 121);;
+    		padding: 20px;
+    		width: 70vb;
+    		margin: auto;
+    		border-radius: 30px;
+    		position:relative;
+    		margin-top: auto;
+    		margin-bottom: auto;
+		}
+		#form-el h2 {
+    		text-align: center;
+		}
+		
+		.inputEl {
+    		/* background-color: rgb(233, 249, 253); */
+    		background-color: rgb(255, 245, 232);
+    		margin: 10px;
+    		padding: 10px;
+    		border-radius: 20px;
+		}
+		.name {
+    		background-color: white;
+    		width: 100%;
+    		box-sizing: border-box;
+    		border: 1px solid rgb(20, 155, 251);
+    		border-radius: 5px;
+    		margin: 0;
+    		padding: 10px;
+    		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		}
+
+		.deadline {
+    		background-color: white;
+    		width: 50%;
+    		box-sizing: border-box;
+    		border: 1px solid rgb(20, 155, 251);
+    		border-radius: 5px;
+    		margin: 0;
+    		padding: 10px;
+    		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		}
+		#save-btn, #close-btn {
+			align-items: center;
+    		position: relative;
+    		width: 20%;
+    		left: 28%;
+    		background-color: aliceblue;
+    		margin: 1%;
+    		padding: 10px;
+    		border: none;
+    		border-radius: 10px;
+		}
+		#save-btn:hover, #close-btn:hover {
+			background-color: #e3e2e2;
+		}
+		.inputEl h4 {
+			padding: none;
+		}
