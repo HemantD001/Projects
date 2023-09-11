@@ -1,2 +1,2 @@
 # Projects
-Uploading projects built to track the hanges in them
+Uploading projects built to track the changes in them
